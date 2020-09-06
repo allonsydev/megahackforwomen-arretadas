@@ -5,7 +5,7 @@ O projeto Arretadas foi desenvolvido pelo Time 6 para o desafio do MCTIC do Mega
 
 > _em breve_
 
-## 👨‍💻 O time
+## 👩‍💻 O time
 * **Day Araújo** - _UX design_
 * **Maralyza Pinheiro** - _Business_
 * **Patricia Mendonça** - _Marketing_
