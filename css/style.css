@@ -1,0 +1,182 @@
+:root {
+    /* cores */
+    --white: #fafafa;
+    --black: #3c3c3c;
+  
+    --acc1: #D35BFD;
+    --acc2: #E75BFD;
+    --acc3: #FBE1FF;
+    --acc4: #FDED5B;
+
+    --gr1: #BFA9BE;
+    --gr2: #B0A9BF;
+}
+
+::selection {
+  background-color: var(--acc1);
+  color: var(--white);
+}
+
+/* estilos reusaveis */
+.container {
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+.container-px {
+  width: 358px;
+  height: 638px;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 1.2rem;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.25rem;
+
+  display: inline-block;
+  padding: .5rem 1.75rem;
+
+  border-radius: 30px;
+}
+
+/* estilos especificos */
+
+/* estilos splash screen */
+.splash {
+  background-color: var(--acc3);
+  border-radius: 10px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 355px;
+}
+
+.splash-btn {
+  background-color: var(--acc1);
+
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+
+  margin-top: 1rem;
+
+  transition: all .5s;
+}
+
+.splash-btn:hover {
+  background-color: var(--acc2);
+
+  transform: scale(1.15);
+}
+
+/* estilos tela login */
+/* .tela-login {
+  padding: 1rem;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.sec-stup, .sec-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-stup-log, .btn-part-log {
+  color: var(--white);
+  font-size: .95rem;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+
+  margin-top: .75rem;
+  transition: all .5s;
+}
+
+.btn-stup-cad, .btn-part-cad {
+  color: var(--black);
+  font-size: .875rem;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+
+  margin-top: 1rem;
+  transition: all .5s;
+}
+
+.btn-stup-log {
+  background-color: #8F5BFD;
+}
+
+.btn-stup-log:hover {
+  background-color: #aa85fa;
+
+  transform: scale(1.1);
+}
+
+.btn-stup-cad {
+  background-color: var(--gr2);
+}
+
+.btn-stup-cad:hover {
+  background-color: #fff;
+  color: var(--gr2);
+
+  border: 1px solid var(--gr2);
+}
+
+.btn-part-log {
+  background-color: var(--acc1);
+}
+
+.btn-part-log:hover {
+  background-color: var(--acc2);
+
+  transform: scale(1.1);
+}
+
+.btn-part-cad {
+  background-color: var(--gr1);
+}
+
+.btn-part-cad:hover {
+  background-color: #fff;
+  color: var(--gr1);
+
+  border: 1px solid var(--gr1);
+}
+
+/* estilos login-participante */
+.form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-links {
+  text-align: center;
+}
+
+.form-links a {
+  display: block;
+}
