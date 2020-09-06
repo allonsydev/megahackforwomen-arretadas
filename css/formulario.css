@@ -1,0 +1,28 @@
+/* estilos gerais */
+input {
+  width: 100%;
+
+  padding: .5rem 1rem;
+  margin: .75rem 0;
+}
+
+label {
+  display: block;
+}
+
+/* lembrete: o placeholder se edita com ::placeholder */
+
+/* estilos especificos */
+input[type=email], input[type=password] {
+  border-bottom: 2px solid #3c3c3c;
+  /* border-radius: 10px; */
+
+  transition: all .5s;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  border-bottom: 2px solid #04D2FB;
+}
+
+/* input[type=submit] {
+} */

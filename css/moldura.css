@@ -1,0 +1,50 @@
+body {
+  background-color: #FBE1FF;
+  
+  background-image: url("/megahackforwomen-arretadas/img/bg-img.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.moldura-container {
+  max-width: 1000px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moldura-col {
+  width: 360px;
+}
+
+.moldura-app {
+  width: 360px;
+  height: 640px;
+
+  margin: 20px 0 20px 0;
+
+  background-color: #fafafa;
+  border: 1px solid #3c3c3c;
+  border-radius: 10px;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.moldura-desc {
+  margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+
+  .moldura-desc {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+}
