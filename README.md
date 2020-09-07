@@ -3,7 +3,9 @@
 ## 💡 Sobre o projeto
 O projeto Arretadas foi desenvolvido pelo Time 6 para o desafio do MCTIC do Mega Hack Women.
 
-> _em breve_
+> _A Arretadas é uma plataforma para unir e dar maior visibilidade às startups de mulheres para que possam promover cursos, eventos, workshops online e networking a partir de:
+divulgação do eventos, venda de ingressos, transmissão ao vivo dentro da plataforma, e possibilidade de adoção de projetos de matriz tecnológica direcionados a inclusão de pessoas de baixa renda._
+
 
 ## 👩‍💻 O time
 * **Day Araújo** - _UX design_
