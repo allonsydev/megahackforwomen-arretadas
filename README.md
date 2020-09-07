@@ -15,7 +15,7 @@ divulgação do eventos, venda de ingressos, transmissão ao vivo dentro da plat
 * **Nathalie Morais** - _Desenvolvimento_
 
 ## 💻 Desenvolvimento
-_Em breve_
+Uma simulação do app Arretadas foi desenvolvido com HTML e CSS.
 
 ### Créditos
 * **Icons:** _[Streamline Icons Pack](https://streamlineicons.com/)_
