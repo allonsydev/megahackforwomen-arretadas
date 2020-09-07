@@ -81,6 +81,10 @@
   border-radius: 30px;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 /* estilos especificos */
 
 /* estilos splash screen */
@@ -257,7 +261,7 @@
 
   border-bottom: 3px solid transparent;
 
-  transition: all .5s;
+  transition: all .2s;
 }
 
 .navbar li + li {
@@ -265,7 +269,8 @@
 }
 
 .navbar li:hover {
-  border-bottom: 3px solid var(--white);
+  border-bottom: 3px solid var(--acc2);
+  background-color: var(--acc3);
 
   transform: scale(1.1);
 }
@@ -295,7 +300,7 @@
   margin-top: .75rem;
 }
 
-.banner-p {
+.banner-p, .banner-p img {
   display: inline-block;
   width: 120px;
   height: 80px;
@@ -340,6 +345,9 @@
 }
 
 .evento-desc p {
+  line-height: 1.5;
+  text-align: justify;
+
   border-left: 3px solid var(--gr2);
   padding-left: .75rem;
 
@@ -365,4 +373,66 @@
 
 .evento-passado:hover {
   opacity: 1;
+}
+
+.btn-transm {
+  background-color: var(--acc1);
+  color: var(--black);
+
+  margin-top: .2rem;
+
+  transition: all .5s;
+}
+
+.btn-transm:hover {
+  background-color: var(--acc3);
+}
+
+.btn-event {
+  background-color: var(--acc2);
+  color: var(--white);
+
+  margin-top: .2rem;
+
+  transition: all .5s;
+}
+
+.btn-event:hover {
+  background-color: var(--acc4);
+}
+
+.form-evento {
+  margin-top: 2rem;
+}
+
+.form-evento-submit {
+  font-weight: 800;
+  background-color: var(--acc1);
+  color: var(--black);
+
+  transition: all .5s;
+}
+
+.form-evento-submit:hover {
+  background-color: var(--acc3);
+
+  transform: scale(1.1);
+}
+
+.form-evento-rasc {
+  font-weight: 800;
+  background-color: var(--acc3);
+  color: var(--black);
+}
+
+.form-evento-vis {
+  font-weight: 800;
+  background-color: var(--gr1);
+  color: var(--black);
+}
+
+.btn-evnt-ok {
+  background-color: var(--acc1);
+
+  margin-top: .5rem;
 }

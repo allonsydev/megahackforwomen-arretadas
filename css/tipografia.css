@@ -34,8 +34,23 @@ h1 {
   font-weight: 800;
 }
 
+h2 {
+  font-weight: 700;
+}
+
+label {
+  font-family: var(--nuni);
+  font-weight: 700;
+}
+
 .center {
   text-align: center;
+}
+
+.small {
+  font-size: .75rem;
+
+  font-style: italic;
 }
 
 /* tipografias especificas / accents */

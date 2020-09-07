@@ -21,7 +21,7 @@ input {
 }
 
 label {
-  display: block;
+  display: inline-block;
 }
 
 /* lembrete: o placeholder se edita com ::placeholder */
@@ -39,7 +39,7 @@ input[type=email]:focus, input[type=password]:focus {
   border-bottom: 2px solid var(--acc4);
 }
 
-input[type=text] {
+input[type=text], input[type=date], input[type=time] {
   background-color: #e6e6e6;
 
   border-radius: 20px;
@@ -62,4 +62,8 @@ input[type=text]::placeholder {
   right: 10px;
 
   padding: .175rem;
+}
+
+.form-desc {
+  height: 100px;
 }
