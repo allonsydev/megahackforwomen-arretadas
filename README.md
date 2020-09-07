@@ -17,6 +17,8 @@ divulgação do eventos, venda de ingressos, transmissão ao vivo dentro da plat
 ## 💻 Desenvolvimento
 Uma simulação do app Arretadas foi desenvolvido com HTML e CSS.
 
+Para uma _live preview_ do código, acesse [https://allonsydev.github.io/megahackforwomen-arretadas/index.html](https://allonsydev.github.io/megahackforwomen-arretadas/index.html]
+
 ### Créditos
 * **Icons:** _[Streamline Icons Pack](https://streamlineicons.com/)_
 * **Imagens:** _[Unsplash](https://unsplash.com/)_
