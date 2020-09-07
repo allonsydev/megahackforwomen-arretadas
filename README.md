@@ -16,3 +16,7 @@ divulgação do eventos, venda de ingressos, transmissão ao vivo dentro da plat
 
 ## 💻 Desenvolvimento
 _Em breve_
+
+### Créditos
+* **Icons:** _[Streamline Icons Pack](https://streamlineicons.com/)_
+* **Imagens:** _[Unsplash](https://unsplash.com/)_
