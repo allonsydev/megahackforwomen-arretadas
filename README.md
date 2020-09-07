@@ -14,3 +14,7 @@ O projeto Arretadas foi desenvolvido pelo Time 6 para o desafio do MCTIC do Mega
 
 ## 💻 Desenvolvimento
 _Em breve_
+
+### Créditos
+* **Icons:** _[Streamline Icons Pack](https://streamlineicons.com/)_
+* **Imagens:** _[Unsplash](https://unsplash.com/)_
