@@ -3,18 +3,36 @@
     --white: #fafafa;
     --black: #3c3c3c;
   
-    --acc1: #D35BFD;
-    --acc2: #E75BFD;
-    --acc3: #FBE1FF;
-    --acc4: #FDED5B;
+    --acc1: #FFCC0C;
+    --acc2: #6D24C6;
+    --acc3: #F6DE83;
+    --acc4: #A676E1;
 
-    --gr1: #BFA9BE;
-    --gr2: #B0A9BF;
+    --gr1: #D3BE6C;
+    --gr2: #6F4B9B;
 }
 
 ::selection {
-  background-color: var(--acc1);
+  background-color: var(--acc4);
   color: var(--white);
+}
+
+/* scrollbar */
+::-webkit-scrollbar-track
+{
+	background-color: #fafafa;
+}
+
+::-webkit-scrollbar
+{
+  width: 3px;
+  height: 3px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: var(--acc4);
 }
 
 /* estilos reusaveis */
@@ -27,6 +45,17 @@
 .container-px {
   width: 358px;
   height: 638px;
+
+  border-radius: 10px;
+}
+
+.container-half-px {
+  width: 358px;
+  height: 551px;
+
+  border-radius: 10px;
+
+  overflow: auto;
 }
 
 .flex {
@@ -57,7 +86,6 @@
 /* estilos splash screen */
 .splash {
   background-color: var(--acc3);
-  border-radius: 10px;
 
   flex-direction: column;
   justify-content: center;
@@ -69,7 +97,7 @@
 }
 
 .splash-btn {
-  background-color: var(--acc1);
+  background-color: var(--acc2);
 
   color: var(--white);
   font-size: 1.3rem;
@@ -82,7 +110,7 @@
 }
 
 .splash-btn:hover {
-  background-color: var(--acc2);
+  background-color: var(--acc4);
 
   transform: scale(1.15);
 }
@@ -124,45 +152,46 @@
 }
 
 .btn-stup-log {
-  background-color: #8F5BFD;
+  background-color: var(--acc1);
 }
 
 .btn-stup-log:hover {
-  background-color: #aa85fa;
+  background-color: var(--acc3);
 
   transform: scale(1.1);
 }
 
 .btn-stup-cad {
-  background-color: var(--gr2);
+  background-color: var(--gr1);
 }
 
 .btn-stup-cad:hover {
   background-color: #fff;
   color: var(--gr2);
 
-  border: 1px solid var(--gr2);
+  border: 1px solid var(--gr1);
 }
 
 .btn-part-log {
-  background-color: var(--acc1);
+  background-color: var(--acc2);
 }
 
 .btn-part-log:hover {
-  background-color: var(--acc2);
+  background-color: var(--acc4);
 
   transform: scale(1.1);
 }
 
 .btn-part-cad {
-  background-color: var(--gr1);
+  background-color: var(--gr2);
+  color: var(--white);
 }
 
 .btn-part-cad:hover {
   background-color: #fff;
-  color: var(--gr1);
+  color: var(--gr2);
 
-  border: 1px solid var(--gr1);
+  border: 1px solid var(--gr2);
 }
 
 /* estilos login-participante */
@@ -173,10 +202,167 @@
   align-content: center;
 }
 
+.form-login-submit {
+  font-weight: 800;
+  background-color: var(--acc2);
+  color: var(--white);
+
+  transition: all .5s;
+}
+
+.form-login-submit:hover {
+  background-color: var(--acc4);
+
+  transform: scale(1.1);
+}
+
 .form-links {
   text-align: center;
+
+  margin-top: .75rem;
 }
 
 .form-links a {
   display: block;
+
+  color: var(--acc2);
+  font-size: .85rem;
+}
+
+/* estilos navbar */
+.navbar {
+  background-color: var(--acc4);
+
+  height: 75px;
+  margin: 0 auto;
+
+  display: fixed;
+
+  border-radius: 30px 30px 10px 10px;
+}
+
+.navbar ul {
+  margin-top: .75rem;
+  
+  display: flex;
+}
+
+.navbar li {
+  display: block;
+
+  font-size: .8rem;
+
+  text-align: center;
+  padding: .75rem .2rem .5rem 0;
+
+  border-bottom: 3px solid transparent;
+
+  transition: all .5s;
+}
+
+.navbar li + li {
+  margin-left: 1rem;
+}
+
+.navbar li:hover {
+  border-bottom: 3px solid var(--white);
+
+  transform: scale(1.1);
+}
+
+.nav-icon {
+  width: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  
+  color: var(--black);
+  font-weight: 700;
+}
+
+.projeto-sec, .evento-catg-sec, .destaque-sec {
+  margin: 2.5rem 0 2rem 0;
+}
+
+.projeto-sec, .evento-catg-sec-scroll {
+  width: 300px;
+
+  overflow: auto;
+}
+
+.sec-wrap {
+  margin-top: .75rem;
+}
+
+.banner-p {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+
+  background-color: var(--acc2);
+  color: var(--white);
+
+  font-weight: 700;
+
+  border-radius: 10px;
+}
+
+.banner-p p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.banner-p + .banner-p {
+  margin-left: 1.2rem;
+}
+
+.banner-g, .banner-g img {
+  width: 270px;
+  height: 150px;
+
+  margin: 0 auto;
+
+  border-radius: 20px;
+}
+
+.evento {
+  margin-top: .5rem;
+}
+
+.evento-desc {
+  width: 95%;
+
+  margin-top: .5rem;
+}
+
+.evento-desc p {
+  border-left: 3px solid var(--gr2);
+  padding-left: .75rem;
+
+  margin-top: .2rem;
+  margin-bottom: .75rem;
+}
+
+.evento-destaque {
+  background-color: var(--acc3);
+  color: var(--black);
+
+  padding: .175rem .5rem;
+  margin-top: 1rem;
+
+  border-radius: 10px;
+}
+
+.evento-passado {
+  opacity: 0.5;
+
+  transition: all .5s;
+}
+
+.evento-passado:hover {
+  opacity: 1;
 }

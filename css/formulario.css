@@ -1,3 +1,17 @@
+:root {
+  /* cores */
+  --white: #fafafa;
+  --black: #3c3c3c;
+
+  --acc1: #FFCC0C;
+  --acc2: #6D24C6;
+  --acc3: #F6DE83;
+  --acc4: #A676E1;
+
+  --gr1: #D3BE6C;
+  --gr2: #6F4B9B;
+}
+
 /* estilos gerais */
 input {
   width: 100%;
@@ -14,15 +28,38 @@ label {
 
 /* estilos especificos */
 input[type=email], input[type=password] {
-  border-bottom: 2px solid #3c3c3c;
+  background-color: var(--white);
+  border-bottom: 2px solid var(--acc2);
   /* border-radius: 10px; */
 
   transition: all .5s;
 }
 
 input[type=email]:focus, input[type=password]:focus {
-  border-bottom: 2px solid #04D2FB;
+  border-bottom: 2px solid var(--acc4);
 }
 
-/* input[type=submit] {
-} */
+input[type=text] {
+  background-color: #e6e6e6;
+
+  border-radius: 20px;
+}
+
+input[type=text]::placeholder {
+  font-style: italic;
+  font-size: .9rem;
+}
+
+.search-wrapper {
+  position: relative;
+
+  margin-top: 1.5rem;
+}
+
+.search-wrapper img {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+
+  padding: .175rem;
+}
